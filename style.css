@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+h1 {
+    position: absolute;
+    top: 38%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+}
+
+h1:focus {
+    outline: none;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+    transition: all 0.5s;
+}
+
+input {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 48%;
+    left: 48.2%;
+    transform: translate(-50%, -50%);
+    border: none;
+    text-align: center;
+}   
+
+input:focus {
+    outline: none;
+}
+
+h1 {
+    margin-left: 40px;
+}
